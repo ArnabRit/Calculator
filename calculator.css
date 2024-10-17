@@ -1,0 +1,39 @@
+#calculator{
+    border:solid rgb(159, 143, 143);
+    width:500px;
+    height:700px;
+    background-color: rgb(216, 241, 241);
+    border-radius:30px;
+    margin:auto;
+}
+.num {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    width:90px;
+    height:90px;
+    margin:15px;
+    font-size: 30px;
+    box-shadow: 0px 4px 6px rgba(77, 58, 58, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+}
+button.num:hover {
+    background-color: #b5def7; /* Darken button color on hover */
+    transform: scale(1.05);    /* Slightly enlarge the button on hover */
+  }
+
+  /* Active effect */
+  button.num:active {
+    background-color: #6f9ce0; /* Even darker when clicked */
+    transform: scale(0.95);    /* Slightly shrink the button when clicked */
+  }
+#display {
+    margin:10px;
+    width:94%;
+    font-size:67px;
+    border-radius: 15px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
